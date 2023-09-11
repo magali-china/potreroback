@@ -24,16 +24,11 @@
     $resultadoDivision = $valor1/$valor2;
     $resultadoResto = $valor1%$valor2;
 
-    echo "La suma de 10 + 20 es ";
-    echo $resultadoSuma."<br>";
-    echo "La resta de 10 - 20 es ";
-    echo $resultadoResta."<br>";
-    echo "La multiplicacion de 10 * 20 es ";
-    echo $resultadoMultiplicacion."<br>";
-    echo "La division de 10/20 es ";
-    echo $resultadoDivision."<br>";
-    echo "El resto de la division entera es ";
-    echo $resultadoResto."<br>";
+    echo "La suma de 10 + 20 es " . $resultadoSuma."<br>" ;
+    echo "La resta de 10 - 20 es " . $resultadoResta."<br>";
+    echo "La multiplicacion de 10 * 20 es ". $resultadoMultiplicacion."<br>";
+    echo "La division de 10/20 es " . $resultadoDivision."<br>";
+    echo "El resto de la division entera es ". $resultadoResto."<br>";
 
     //Pasar de  Celsius a Fahrenheit
     function celsiusAFahrenheit($celsius)
